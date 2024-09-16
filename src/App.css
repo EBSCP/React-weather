@@ -1,0 +1,76 @@
+body {
+    background: rebeccapurple;
+}
+
+.container {
+    border: 2px solid white;
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    background: linear-gradient(to right, #0fe3ff 50%, #39b169 50%);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s infinite;
+    border-radius: 30px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.search-area {
+     width: 100%;
+     height: 10%;
+}
+
+.search-area button {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.search-area input {
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.search-result {
+    width: 100%;
+    height: 80%;
+    padding-left: 150px;
+}
+
+.search-result img {
+     width:  150px;
+     height: 150px;
+}
+
+.search-result h3,h4,h5 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-result h3 {
+    font-size: 50px;
+}
+
+
+.search-result h3 {
+    font-size: 40px;
+}
+
+
+
+.search-result h3 {
+    font-size: 30px;
+}
